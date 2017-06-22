@@ -3,18 +3,18 @@ fun main(args: Array<String>) {
     Dog().makeSound()
 }
 
-open class Animal {
+private open class Animal {
 
     open fun makeSound() {
         println("Making animal sounds")
     }
 }
 
-interface GoodBoy {
+private interface GoodBoy {
     fun isGoodBoy(): Boolean
 }
 
-class Dog : Animal(), GoodBoy {
+private class Dog : Animal(), GoodBoy {
 
     override fun makeSound() {
         println("Woofing")

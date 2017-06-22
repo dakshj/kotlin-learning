@@ -1,4 +1,4 @@
-fun getSquareAndCubeOfNumber(n: Int) =
+private fun getSquareAndCubeOfNumber(n: Int) =
         Math.pow(n.toDouble(), 2.toDouble()) to Math.pow(n.toDouble(), 3.toDouble())
 
 fun main(args: Array<String>) {

@@ -1,4 +1,4 @@
-fun sum(vararg nums: Int) = nums.sum()
+private fun sum(vararg nums: Int) = nums.sum()
 
 fun main(args: Array<String>) {
     println(sum(1, 2))

@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     Person("Daksh", 25)
 }
 
-class Person(name: String) {
+private class Person(name: String) {
 
     init {
         // Primary constructor code

@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     Student("Daksh", 25)
 }
 
-class Student(name: String) {
+private class Student(name: String) {
 
     init {
         // Throws java.lang.IllegalArgumentException

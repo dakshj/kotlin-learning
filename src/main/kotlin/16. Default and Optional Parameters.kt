@@ -3,6 +3,6 @@ fun main(args: Array<String>) {
     functionWithParameterDefaultValues(a = "<custom value 2 for a>", b = "<custom value 1 for b>")
 }
 
-fun functionWithParameterDefaultValues(a: String, b: String = "<default value for b>") {
+private fun functionWithParameterDefaultValues(a: String, b: String = "<default value for b>") {
     println("Printing params of \"functionWithParameterDefaultValues\": $a; $b")
 }

@@ -1,9 +1,9 @@
-val add = { a: Double, b: Double -> a + b }
-val subtract = { a: Double, b: Double -> a - b }
-val multiply = { a: Double, b: Double -> a * b }
-val divide = { a: Double, b: Double -> a / b }
+private val add = { a: Double, b: Double -> a + b }
+private val subtract = { a: Double, b: Double -> a - b }
+private val multiply = { a: Double, b: Double -> a * b }
+private val divide = { a: Double, b: Double -> a / b }
 
-fun calculate(a: Double, b: Double, calculation: (Double, Double) -> Double): Double {
+private fun calculate(a: Double, b: Double, calculation: (Double, Double) -> Double): Double {
     return calculation(a, b)
 }
 

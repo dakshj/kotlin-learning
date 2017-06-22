@@ -8,4 +8,4 @@
  * * toString()
  * * clone()
  */
-data class Customer(val id: Int, var name: String)
+private data class Customer(val id: Int, var name: String)
