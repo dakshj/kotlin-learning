@@ -10,9 +10,15 @@ open class Animal {
     }
 }
 
-class Dog : Animal() {
+interface GoodBoy {
+    fun isGoodBoy(): Boolean
+}
+
+class Dog : Animal(), GoodBoy {
 
     override fun makeSound() {
         println("Woofing")
     }
+
+    override fun isGoodBoy() = true
 }
